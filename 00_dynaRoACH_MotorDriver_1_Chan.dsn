@@ -1,0 +1,514 @@
+(PCB "/Users/ahoover/olin/research/embedded/dr_motor_driver/00_dynaRoACH_MotorDriver_1_Chan.brd"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad CadSoft)
+    (host_version 'Eagle V 6.5 - Using eagle2freerouter.ulp, version 29 May 2013, on 10/22/14 9:34 PM')
+    (case_sensitive off)
+    (via_rotate_first on)
+  )
+  (resolution mm 100000)
+  (unit mm)
+  (structure
+    (layer "1#Top" (type signal))
+    (layer "16#Bottom" (type signal))
+    (boundary
+      (rect pcb 20.000000 0.000000 35.150000 23.400000))
+    (boundary
+      (path signal 0 20.000000 0.000000 35.150000 0.000000 35.150000 23.400000 20.000000 23.400000  20.000000 0.000000)
+      (clearance_class boundary)
+    )
+    (via
+      "Round1$0.254000"
+    )
+    (control
+      (via_at_smd on)
+    )
+    (rule (width 0.127000)(clearance 0.152400))
+    (rule (clearance 0.000000 (type default_boundary)))
+  )
+  (placement
+    (place_control (flip_style rotate_first))
+    (component "0402-CAP$SparkFun"
+      (place "C1" 33.500000 7.500000 Front 0.000000)
+    )
+    (component "0402-CAP$SparkFun"
+      (place "C2" 30.500000 6.990000 Back 270.000000)
+    )
+    (component "0603-CAP$SparkFun"
+      (place "C3" 21.480000 3.220000 Back 270.000000)
+    )
+    (component "0402-CAP$SparkFun"
+      (place "C8" 22.620000 18.760000 Front 270.000000)
+    )
+    (component "0402-CAP$SparkFun"
+      (place "C9" 31.960000 19.480000 Front 90.000000)
+    )
+    (component "0402-CAP$SparkFun"
+      (place "C10" 26.560000 4.420000 Back 0.000000)
+    )
+    (component "0402-CAP$SparkFun"
+      (place "C11" 33.220000 22.180000 Front 0.000000)
+    )
+    (component "0402-CAP$SparkFun"
+      (place "C14" 30.080000 22.100000 Front 180.000000)
+    )
+    (component "0402-CAP$SparkFun"
+      (place "C15" 24.440000 18.780000 Front 90.000000)
+    )
+    (component "SAMTEC_19P_1MM_SOCKET$AMH"
+      (place "CONN1" 24.984000 3.391000 Front 0.000000)
+    )
+    (component "MOLEX-PICO_CLASP_S2P$stan"
+      (place "JP21" 32.480000 3.560000 Back 270.000000)
+    )
+    (component "MOLEX-PICO_CLASP_S2P$stan"
+      (place "JP22" 32.500000 20.060000 Back 270.000000)
+    )
+    (component "LED-0603$SparkFun"
+      (place "LED1" 28.520000 2.600000 Back 270.000000)
+    )
+    (component "LED-0603$SparkFun"
+      (place "LED2" 24.620000 2.760000 Back 270.000000)
+    )
+    (component "MOLEX-PICO_CLASP_S2P$stan"
+      (place "MOT1" 32.480000 11.650000 Back 270.000000)
+    )
+    (component "SSOP24$SparkFun"
+      (place "MOTCON" 25.780000 13.140000 Front 270.000000)
+    )
+    (component "0402-RES$SparkFun"
+      (place "R1" 33.720000 19.490000 Front 90.000000)
+    )
+    (component "0402-RES$SparkFun"
+      (place "R2" 27.720000 21.680000 Front 270.000000)
+    )
+    (component "0402-RES$SparkFun"
+      (place "R3" 24.220000 21.570000 Front 90.000000)
+    )
+    (component "0402-RES$SparkFun"
+      (place "R4" 22.610000 21.560000 Front 270.000000)
+    )
+    (component "0402-RES$SparkFun"
+      (place "R5" 31.690000 9.050000 Front 270.000000)
+    )
+    (component "0402-RES$SparkFun"
+      (place "R6" 26.490000 10.860000 Back 90.000000)
+    )
+    (component "0402-RES$SparkFun"
+      (place "R7" 25.480000 5.960000 Back 0.000000)
+    )
+    (component "0402-RES$SparkFun"
+      (place "R8" 28.720000 7.080000 Back 270.000000)
+    )
+    (component "0402-RES$SparkFun"
+      (place "R11" 26.707900 18.743400 Front 270.000000)
+    )
+    (component "SC-70-5$stan"
+      (place "REG1" 32.910000 3.400000 Front 0.000000)
+    )
+    (component "EXB24V$resistor-dil"
+      (place "RN3" 30.620000 14.970000 Back 90.000000)
+    )
+    (component "EXB24V$resistor-dil"
+      (place "RN4" 30.630000 16.700000 Back 90.000000)
+    )
+    (component "8-PIN_MSOP$AMH"
+      (place "U$1" 23.370000 21.490000 Back 0.000000)
+    )
+    (component "MOLEX-PICO_CLASP_S6P$stan"
+      (place "U$2" 22.800000 10.900000 Back 90.000000)
+    )
+    (component "SC-70-6$stan"
+      (place "U8" 32.970000 12.240000 Front 270.000000)
+    )
+  )
+  (library
+    (image "8-PIN_MSOP$AMH"
+      (outline(path "1#Top" 0 -1.500000 1.500000  1.500000 1.500000))
+      (outline(path "1#Top" 0 1.500000 1.500000  1.500000 -1.500000))
+      (outline(path "1#Top" 0 1.500000 -1.500000  -1.500000 -1.500000))
+      (outline(path "1#Top" 0 -1.500000 -1.500000  -1.500000 1.500000))
+      (outline(path "1#Top" 0 -2.100000 1.300000  -2.100000 1.800000))
+      (outline(path "1#Top" 0 -2.100000 1.800000  2.100000 1.800000))
+      (outline(path "1#Top" 0 2.100000 1.800000  2.100000 1.300000))
+      (outline(path "1#Top" 0 -2.100000 -1.300000  -2.100000 -1.700000))
+      (outline(path "1#Top" 0 -2.100000 -1.700000  2.100000 -1.700000))
+      (outline(path "1#Top" 0 2.100000 -1.700000  2.100000 -1.300000))
+      (outline(circ "1#Top" 0.282800 -1.600000 1.400000))
+      (pin "SMD_1" "1" -2.150000 0.975000)
+      (pin "SMD_1" "2" -2.150000 0.325000)
+      (pin "SMD_1" "3" -2.150000 -0.325000)
+      (pin "SMD_1" "4" -2.150000 -0.975000)
+      (pin "SMD_1" "5" 2.150000 -0.975000)
+      (pin "SMD_1" "6" 2.150000 -0.325000)
+      (pin "SMD_1" "7" 2.150000 0.325000)
+      (pin "SMD_1" "8" 2.150000 0.975000)
+    )
+    (image "SAMTEC_19P_1MM_SOCKET$AMH"
+      (outline(path "1#Top" 0 -4.000000 2.504000  5.000000 2.504000))
+      (outline(path "1#Top" 0 5.500000 -2.504000  -4.500000 -2.504000))
+      (outline(path "1#Top" 0 -4.000000 2.500000  -4.000000 0.000000))
+      (outline(path "1#Top" 0 -4.000000 0.000000  -4.500000 0.000000))
+      (outline(path "1#Top" 0 -4.500000 0.000000  -4.500000 -2.500000))
+      (outline(path "1#Top" 0 5.000000 2.500000  5.000000 0.000000))
+      (outline(path "1#Top" 0 5.000000 0.000000  5.500000 0.000000))
+      (outline(path "1#Top" 0 5.500000 0.000000  5.500000 -2.500000))
+      (pin "SMD_2" "1" -4.000000 -2.362500)
+      (pin "SMD_2" "2" -3.500000 2.362500)
+      (pin "SMD_2" "3" -3.000000 -2.362500)
+      (pin "SMD_2" "4" -2.500000 2.362500)
+      (pin "SMD_2" "5" -2.000000 -2.362500)
+      (pin "SMD_2" "6" -1.500000 2.362500)
+      (pin "SMD_2" "7" -1.000000 -2.362500)
+      (pin "SMD_2" "8" -0.500000 2.362500)
+      (pin "SMD_2" "9" 0.000000 -2.362500)
+      (pin "SMD_2" "10" 0.500000 2.362500)
+      (pin "SMD_2" "11" 1.000000 -2.362500)
+      (pin "SMD_2" "12" 1.500000 2.362500)
+      (pin "SMD_2" "13" 2.000000 -2.362500)
+      (pin "SMD_2" "14" 2.500000 2.362500)
+      (pin "SMD_2" "15" 3.000000 -2.362500)
+      (pin "SMD_2" "16" 3.500000 2.362500)
+      (pin "SMD_2" "17" 4.000000 -2.362500)
+      (pin "SMD_2" "18" 4.500000 2.250000)
+      (pin "SMD_2" "19" 5.000000 -2.362500)
+    )
+    (image "0402-CAP$SparkFun"
+      (outline(path "1#Top" 0 -0.245000 0.224000  0.245000 0.224000))
+      (outline(path "1#Top" 0 0.245000 -0.224000  -0.245000 -0.224000))
+      (outline(path "1#Top" 0 -1.473000 0.483000  1.473000 0.483000))
+      (outline(path "1#Top" 0 1.473000 0.483000  1.473000 -0.483000))
+      (outline(path "1#Top" 0 1.473000 -0.483000  -1.473000 -0.483000))
+      (outline(path "1#Top" 0 -1.473000 -0.483000  -1.473000 0.483000))
+      (outline(path "1#Top" 0 0.000000 0.030500  0.000000 -0.030500))
+      (place_keepout(path "1#Top" 0 -1.473000 0.483000 1.473000 0.483000 1.473000 -0.483000 -1.473000 -0.483000  -1.473000 0.483000))
+      (pin "SMD_3" "1" -0.650000 0.000000)
+      (pin "SMD_3" "2" 0.650000 0.000000)
+    )
+    (image "0402-RES$SparkFun"
+      (outline(path "1#Top" 0 -0.245000 0.224000  0.245000 0.224000))
+      (outline(path "1#Top" 0 0.245000 -0.224000  -0.245000 -0.224000))
+      (outline(path "1#Top" 0 -1.473000 0.483000  1.473000 0.483000))
+      (outline(path "1#Top" 0 1.473000 0.483000  1.473000 -0.483000))
+      (outline(path "1#Top" 0 1.473000 -0.483000  -1.473000 -0.483000))
+      (outline(path "1#Top" 0 -1.473000 -0.483000  -1.473000 0.483000))
+      (outline(rect "1#Top" -0.203200 -0.355600 0.203200 0.355600))
+      (place_keepout(path "1#Top" 0 -1.473000 0.483000 1.473000 0.483000 1.473000 -0.483000 -1.473000 -0.483000  -1.473000 0.483000))
+      (pin "SMD_3" "1" -0.650000 0.000000)
+      (pin "SMD_3" "2" 0.650000 0.000000)
+    )
+    (image "0603-CAP$SparkFun"
+      (outline(path "1#Top" 0 -1.473000 0.983000  1.473000 0.983000))
+      (outline(path "1#Top" 0 1.473000 0.983000  1.473000 -0.983000))
+      (outline(path "1#Top" 0 1.473000 -0.983000  -1.473000 -0.983000))
+      (outline(path "1#Top" 0 -1.473000 -0.983000  -1.473000 0.983000))
+      (outline(path "1#Top" 0 -0.356000 0.432000  0.356000 0.432000))
+      (outline(path "1#Top" 0 -0.356000 -0.419000  0.356000 -0.419000))
+      (outline(path "1#Top" 0 0.000000 0.030500  0.000000 -0.030500))
+      (place_keepout(path "1#Top" 0 -1.473000 0.983000 1.473000 0.983000 1.473000 -0.983000 -1.473000 -0.983000  -1.473000 0.983000))
+      (pin "SMD_4" "1" -0.850000 0.000000)
+      (pin "SMD_4" "2" 0.850000 0.000000)
+    )
+    (image "LED-0603$SparkFun"
+      (outline(path "1#Top" 0 0.460000 0.170000  0.000000 0.170000))
+      (outline(path "1#Top" 0 -0.460000 0.170000  0.000000 0.170000))
+      (outline(path "1#Top" 0 0.000000 0.170000  0.233800 -0.140000))
+      (outline(path "1#Top" 0 -0.025400 0.154600  -0.218400 -0.140000))
+      (pin "SMD_5" "A" 0.000000 -0.750000)
+      (pin "SMD_5" "C" 0.000000 0.750000)
+    )
+    (image "SSOP24$SparkFun"
+      (outline(path "1#Top" 0 -4.250000 2.500000  4.250000 2.500000))
+      (outline(path "1#Top" 0 4.250000 2.500000  4.250000 -2.500000))
+      (outline(path "1#Top" 0 4.250000 -2.500000  -4.250000 -2.500000))
+      (outline(path "1#Top" 0 -4.250000 -2.500000  -4.250000 2.500000))
+      (outline(circ "1#Top" 0.446200 -3.556000 -1.778000))
+      (pin "SMD_6" "1" -3.575000 -3.656000)
+      (pin "SMD_6" "2" -2.925000 -3.656000)
+      (pin "SMD_6" "3" -2.275000 -3.656000)
+      (pin "SMD_6" "4" -1.625000 -3.656000)
+      (pin "SMD_6" "5" -0.975000 -3.656000)
+      (pin "SMD_6" "6" -0.325000 -3.656000)
+      (pin "SMD_6" "7" 0.325000 -3.656000)
+      (pin "SMD_6" "8" 0.975000 -3.656000)
+      (pin "SMD_6" "9" 1.625000 -3.656000)
+      (pin "SMD_6" "10" 2.275000 -3.656000)
+      (pin "SMD_6" "11" 2.925000 -3.656000)
+      (pin "SMD_6" "12" 3.575000 -3.656000)
+      (pin "SMD_7" "13" 3.575000 3.656000)
+      (pin "SMD_7" "14" 2.925000 3.656000)
+      (pin "SMD_6" "15" 2.275000 3.656000)
+      (pin "SMD_6" "16" 1.625000 3.656000)
+      (pin "SMD_6" "17" 0.975000 3.656000)
+      (pin "SMD_6" "18" 0.325000 3.656000)
+      (pin "SMD_6" "19" -0.325000 3.656000)
+      (pin "SMD_6" "20" -0.975000 3.656000)
+      (pin "SMD_6" "21" -1.625000 3.656000)
+      (pin "SMD_6" "22" -2.275000 3.656000)
+      (pin "SMD_6" "23" -2.925000 3.656000)
+      (pin "SMD_6" "24" -3.575000 3.656000)
+    )
+    (image "EXB24V$resistor-dil"
+      (outline(path "1#Top" 0 -0.450000 0.450000  -0.150000 0.450000))
+      (outline(path "1#Top" 0 -0.150000 0.450000 -0.133463 0.381535 -0.087500 0.328165 -0.022244 0.301658  0.000000 0.300000))
+      (outline(path "1#Top" 0 0.000000 0.300000 0.068465 0.316537 0.121835 0.362500 0.148342 0.427756  0.150000 0.450000))
+      (outline(path "1#Top" 0 0.150000 0.450000  0.450000 0.450000))
+      (outline(path "1#Top" 0 0.450000 0.450000  0.450000 -0.450000))
+      (outline(path "1#Top" 0 0.450000 -0.450000  0.150000 -0.450000))
+      (outline(path "1#Top" 0 0.150000 -0.450000 0.133463 -0.381535 0.087500 -0.328165 0.022244 -0.301658  0.000000 -0.300000))
+      (outline(path "1#Top" 0 0.000000 -0.300000 -0.068465 -0.316537 -0.121835 -0.362500 -0.148342 -0.427756  -0.150000 -0.450000))
+      (outline(path "1#Top" 0 -0.150000 -0.450000  -0.450000 -0.450000))
+      (outline(path "1#Top" 0 -0.450000 -0.450000  -0.450000 0.450000))
+      (outline(path "1#Top" 0 -0.450000 -0.150000  -0.450000 0.150000))
+      (outline(path "1#Top" 0 0.450000 0.150000  0.450000 -0.150000))
+      (pin "SMD_8" "1" -0.350000 -0.475000)
+      (pin "SMD_8" "2" 0.350000 -0.475000)
+      (pin "SMD_8" "3" 0.350000 0.475000)
+      (pin "SMD_8" "4" -0.350000 0.475000)
+    )
+    (image "MOLEX-PICO_CLASP_S2P$stan"
+      (outline(path "1#Top" 0 2.350000 1.000000  2.350000 -2.000000))
+      (outline(path "1#Top" 0 2.350000 -2.000000  -2.400000 -2.000000))
+      (outline(path "1#Top" 0 -2.400000 -2.000000  -2.400000 1.000000))
+      (outline(path "1#Top" 0 -2.400000 -0.100000  -2.400000 1.000000))
+      (outline(path "1#Top" 0 -2.400000 1.000000  -1.700000 1.000000))
+      (outline(path "1#Top" 0 2.350000 -0.050000  2.350000 1.000000))
+      (outline(path "1#Top" 0 2.350000 1.000000  1.600000 1.000000))
+      (outline(path "1#Top" 0 -2.400000 1.000000  2.350000 1.000000))
+      (pin "SMD_9" "1" -0.500000 1.000000)
+      (pin "SMD_9" "2" 0.500000 1.000000)
+      (pin "SMD_10" "A" -2.100000 -1.500000)
+      (pin "SMD_10" "B" 2.100000 -1.500000)
+    )
+    (image "MOLEX-PICO_CLASP_S6P$stan"
+      (outline(path "1#Top" 0 -4.000000 1.000000  4.000000 1.000000))
+      (outline(path "1#Top" 0 4.000000 1.000000  4.000000 -2.000000))
+      (outline(path "1#Top" 0 4.000000 -2.000000  -4.000000 -2.000000))
+      (outline(path "1#Top" 0 -4.000000 -2.000000  -4.000000 1.000000))
+      (pin "SMD_9" "1" -2.500000 1.000000)
+      (pin "SMD_9" "2" -1.500000 1.000000)
+      (pin "SMD_9" "3" -0.500000 1.000000)
+      (pin "SMD_9" "4" 0.500000 1.000000)
+      (pin "SMD_9" "5" 1.500000 1.000000)
+      (pin "SMD_9" "6" 2.500000 1.000000)
+      (pin "SMD_10" "A" -4.100000 -1.550000)
+      (pin "SMD_10" "B" 4.100000 -1.550000)
+    )
+    (image "SC-70-5$stan"
+      (outline(path "1#Top" 0 1.000000 0.625000  1.000000 -0.625000))
+      (outline(path "1#Top" 0 -1.000000 -0.625000  -1.000000 0.625000))
+      (outline(path "1#Top" 0 -1.000000 -0.625000  1.000000 -0.625000))
+      (outline(path "1#Top" 0 -1.000000 0.625000  1.000000 0.625000))
+      (outline(path "1#Top" 0 1.200000 -0.600000  -1.000000 -0.600000))
+      (outline(circ "1#Top" 0.447200 -1.300000 -0.500000))
+      (pin "SMD_11" "1" -0.650000 -0.825000)
+      (pin "SMD_11" "2" 0.000000 -0.825000)
+      (pin "SMD_11" "3" 0.650000 -0.825000)
+      (pin "SMD_11" "4" 0.650000 0.825000)
+      (pin "SMD_11" "5" -0.650000 0.825000)
+    )
+    (image "SC-70-6$stan"
+      (outline(path "1#Top" 0 -1.000000 0.625000  0.985000 0.630000))
+      (outline(path "1#Top" 0 -1.010000 -0.630000  1.000000 -0.625000))
+      (outline(path "1#Top" 0 -1.010000 -0.630000  1.000000 -0.625000))
+      (outline(path "1#Top" 0 -1.000000 0.625000  -1.000000 -0.625000))
+      (outline(path "1#Top" 0 1.000000 0.625000  1.000000 -0.625000))
+      (outline(circ "1#Top" 0.447200 -1.300000 -0.500000))
+      (pin "SMD_12" "1" -0.650000 -0.800000)
+      (pin "SMD_12" "2" 0.000000 -0.800000)
+      (pin "SMD_12" "3" 0.650000 -0.800000)
+      (pin "SMD_12" "4" 0.650000 0.800000)
+      (pin "SMD_12" "5" 0.000000 0.800000)
+      (pin "SMD_12" "6" -0.650000 0.800000)
+    )
+    (padstack "ViaDefault$0.254000"
+      (shape (circle signal 0.660400 0 0))
+      (attach off)
+    )
+    (padstack "Round1$0.254000"
+      (shape (circle "1#Top" 0.660400 0 0))
+      (shape (circle "16#Bottom" 0.660400 0 0))
+      (attach off)
+    )
+    (padstack "SMD_1"
+      (shape (polygon "1#Top" 0 0.300000 0.205000 -0.300000 0.205000 -0.300000 -0.205000 0.300000 -0.205000))
+      (attach off)
+    )
+    (padstack "SMD_2"
+      (shape (polygon "1#Top" 0 0.305000 0.687500 -0.305000 0.687500 -0.305000 -0.687500 0.305000 -0.687500))
+      (attach off)
+    )
+    (padstack "SMD_3"
+      (shape (polygon "1#Top" 0 0.350000 0.450000 -0.350000 0.450000 -0.350000 -0.450000 0.350000 -0.450000))
+      (attach off)
+    )
+    (padstack "SMD_4"
+      (shape (polygon "1#Top" 0 0.550000 0.500000 -0.550000 0.500000 -0.550000 -0.500000 0.550000 -0.500000))
+      (attach off)
+    )
+    (padstack "SMD_5"
+      (shape (polygon "1#Top" 0 0.400000 0.400000 -0.400000 0.400000 -0.400000 -0.400000 0.400000 -0.400000))
+      (attach off)
+    )
+    (padstack "SMD_6"
+      (shape (polygon "1#Top" 0 0.174000 0.698500 -0.174000 0.698500 -0.174000 -0.698500 0.174000 -0.698500))
+      (attach off)
+    )
+    (padstack "SMD_7"
+      (shape (polygon "1#Top" 0 -0.174000 -0.698500 0.174000 -0.698500 0.174000 0.698500 -0.174000 0.698500))
+      (attach off)
+    )
+    (padstack "SMD_8"
+      (shape (polygon "1#Top" 0 0.200000 0.225000 -0.200000 0.225000 -0.200000 -0.225000 0.200000 -0.225000))
+      (attach off)
+    )
+    (padstack "SMD_9"
+      (shape (polygon "1#Top" 0 -0.300000 -0.800000 0.300000 -0.800000 0.300000 0.800000 -0.300000 0.800000))
+      (attach off)
+    )
+    (padstack "SMD_10"
+      (shape (polygon "1#Top" 0 -0.600000 0.900000 -0.600000 -0.900000 0.600000 -0.900000 0.600000 0.900000))
+      (attach off)
+    )
+    (padstack "SMD_11"
+      (shape (polygon "1#Top" 0 0.200000 0.375000 -0.200000 0.375000 -0.200000 -0.375000 0.200000 -0.375000))
+      (attach off)
+    )
+    (padstack "SMD_12"
+      (shape (polygon "1#Top" 0 -0.150000 -0.350000 0.150000 -0.350000 0.150000 0.350000 -0.150000 0.350000))
+      (attach off)
+    )
+  )
+  (network
+    (net "AN0"
+      (pins "R6"-"1" "R5"-"2" "CONN1"-"2")
+    )
+    (net "AN1"
+      (pins "CONN1"-"4" "R11"-"2" "C10"-"2")
+    )
+    (net "AN3"
+      (pins "CONN1"-"6")
+    )
+    (net "AN4"
+      (pins "CONN1"-"8")
+    )
+    (net "AN5"
+      (pins "CONN1"-"10")
+    )
+    (net "AN8"
+      (pins "CONN1"-"5" "R8"-"2")
+    )
+    (net "AN11"
+      (pins "CONN1"-"7" "R7"-"2")
+    )
+    (net "GND"
+      (pins "U8"-"1" "U8"-"4" "RN4"-"1" "RN4"-"2" "C1"-"1" "REG1"-"2" "C2"-"1" "CONN1"-"1" "R6"-"2" "C8"-"1" "U$1"-"6" "C10"-"1" "C15"-"1" "C11"-"1" "C14"-"1" "LED1"-"C" "LED2"-"C" "C3"-"1" "MOTCON"-"3" "MOTCON"-"4" "MOTCON"-"10" "MOTCON"-"9" "MOTCON"-"18")
+    )
+    (net "N$1"
+      (pins "U$1"-"1" "R1"-"2" "R2"-"1")
+    )
+    (net "N$2"
+      (pins "U$1"-"8" "R3"-"2" "R4"-"1")
+    )
+    (net "N$4"
+      (pins "RN3"-"4" "U8"-"2" "RN4"-"3")
+    )
+    (net "N$5"
+      (pins "LED1"-"A" "R8"-"1")
+    )
+    (net "N$6"
+      (pins "R7"-"1" "LED2"-"A")
+    )
+    (net "N$7"
+      (pins "R4"-"2" "U$1"-"5")
+    )
+    (net "N$12"
+      (pins "U$1"-"7" "U$1"-"2" "C8"-"2")
+    )
+    (net "N$18"
+      (pins "R2"-"2" "U$1"-"4" "R11"-"1")
+    )
+    (net "N$21"
+      (pins "U8"-"6" "JP22"-"2")
+    )
+    (net "N$22"
+      (pins "U8"-"3" "JP21"-"2")
+    )
+    (net "N$50"
+      (pins "U8"-"5" "RN3"-"3" "RN4"-"4")
+    )
+    (net "PWM1H"
+      (pins "CONN1"-"13" "MOTCON"-"21")
+    )
+    (net "PWM1L"
+      (pins "CONN1"-"15" "MOTCON"-"22")
+    )
+    (net "PWM2H"
+      (pins "CONN1"-"17" "U$2"-"4")
+    )
+    (net "PWM3H"
+      (pins "CONN1"-"16" "RN3"-"1")
+    )
+    (net "PWM3L"
+      (pins "CONN1"-"18" "RN3"-"2")
+    )
+    (net "PWM4H"
+      (pins "CONN1"-"12")
+    )
+    (net "PWM4L"
+      (pins "CONN1"-"14")
+    )
+    (net "SCK2"
+      (pins "CONN1"-"19" "U$2"-"1")
+    )
+    (net "SDI2"
+      (pins "CONN1"-"11" "U$2"-"2")
+    )
+    (net "SDO2"
+      (pins "CONN1"-"9" "U$2"-"3")
+    )
+    (net "VBAT"
+      (pins "REG1"-"3" "CONN1"-"3" "R5"-"1" "REG1"-"1" "C2"-"2" "MOTCON"-"24" "C11"-"2" "JP22"-"1" "C3"-"2" "JP21"-"1")
+    )
+    (net "VCC"
+      (pins "REG1"-"5" "C1"-"2" "U$1"-"3" "C15"-"2" "MOTCON"-"19" "MOTCON"-"23" "MOTCON"-"20" "C14"-"2")
+    )
+    (net "VM1+"
+      (pins "MOT1"-"2" "R1"-"1" "MOTCON"-"5" "C9"-"1" "MOTCON"-"6")
+    )
+    (net "VM1-"
+      (pins "MOT1"-"1" "R3"-"1" "MOTCON"-"1" "C9"-"2" "MOTCON"-"2")
+    )
+    (class "Power"
+       "N$1" "N$2" "N$5" "N$6" "N$7" "N$12" "N$18" "VBAT" "VM1+" "VM1-"
+      (rule
+        (width 0.304800)
+        (clearance 0.152400)
+      )
+    )
+    (class "Signal"
+       "AN0" "AN1" "AN3" "AN4" "AN5" "AN8" "AN11" "N$4" "N$21" "N$22" "N$50" "PWM1H" "PWM1L" "PWM2H" "PWM3H" "PWM3L" "PWM4H" "PWM4L" "SCK2" "SDI2" "SDO2"
+      (rule
+        (width 0.152400)
+        (clearance 0.152400)
+      )
+    )
+    (class "GND"
+       "GND"
+      (rule
+        (width 0.304800)
+        (clearance 0.152400)
+      )
+    )
+    (class "VCC"
+       "VCC"
+      (rule
+        (width 0.254000)
+        (clearance 0.152400)
+      )
+    )
+  )
+  (wiring
+  )
+)
