@@ -1605,7 +1605,7 @@ Source: Panasonic</description>
 <part name="LED2" library="SparkFun" deviceset="LED" device="0603" value="Red"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="SparkFun" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="U$2" library="stan" deviceset="MPCS6P" device="H"/>
+<part name="JP23" library="stan" deviceset="MPCS6P" device="H"/>
 </parts>
 <sheets>
 <sheet>
@@ -1660,7 +1660,7 @@ Source: Panasonic</description>
 <attribute name="NAME" x="-23.876" y="195.961" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-32.004" y="195.453" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="-39.624" y="113.03"/>
+<instance part="JP23" gate="G$1" x="-39.624" y="113.03"/>
 </instances>
 <busses>
 </busses>
@@ -1673,7 +1673,7 @@ Source: Panasonic</description>
 <wire x1="-20.32" y1="180.34" x2="-25.4" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="180.34" x2="-25.4" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="111.76" x2="-32.004" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="3"/>
+<pinref part="JP23" gate="G$1" pin="3"/>
 <junction x="-32.004" y="111.76"/>
 <wire x1="-32.004" y1="111.76" x2="-33.02" y2="111.76" width="0.1524" layer="91"/>
 </segment>
@@ -1686,7 +1686,7 @@ Source: Panasonic</description>
 <wire x1="-20.32" y1="177.8" x2="-22.86" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="177.8" x2="-22.86" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="109.22" x2="-32.004" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="2"/>
+<pinref part="JP23" gate="G$1" pin="2"/>
 <junction x="-32.004" y="109.22"/>
 <wire x1="-32.004" y1="109.22" x2="-33.02" y2="109.22" width="0.1524" layer="91"/>
 </segment>
@@ -1882,7 +1882,7 @@ Source: Panasonic</description>
 <pinref part="CONN1" gate="G$1" pin="19"/>
 <wire x1="-20.32" y1="167.64" x2="-20.32" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="106.68" x2="-32.004" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="1"/>
+<pinref part="JP23" gate="G$1" pin="1"/>
 <wire x1="-32.004" y1="106.68" x2="-35.56" y2="106.68" width="0.1524" layer="91"/>
 <junction x="-32.004" y="106.68"/>
 </segment>
@@ -1895,7 +1895,7 @@ Source: Panasonic</description>
 <wire x1="-20.32" y1="170.18" x2="-27.94" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="170.18" x2="-27.94" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="114.3" x2="-32.004" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="4"/>
+<pinref part="JP23" gate="G$1" pin="4"/>
 <junction x="-32.004" y="114.3"/>
 <wire x1="-32.004" y1="114.3" x2="-33.02" y2="114.3" width="0.1524" layer="91"/>
 </segment>

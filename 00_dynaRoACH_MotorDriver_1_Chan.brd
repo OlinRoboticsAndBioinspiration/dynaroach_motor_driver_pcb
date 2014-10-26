@@ -32,8 +32,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -670,12 +670,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="20.791" y="3.518" size="0.7" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="20.664" y="1.523" size="0.4064" layer="28" font="vector" rot="MR180"/>
 </element>
-<element name="U$2" library="stan" package="MOLEX-PICO_CLASP_S6P" value="MPCS6PH" x="22.8" y="10.9" rot="MR90"/>
+<element name="JP23" library="stan" package="MOLEX-PICO_CLASP_S6P" value="MPCS6PH" x="22.8" y="10.9" rot="MR90"/>
 </elements>
 <signals>
 <signal name="SDO2" class="1">
 <contactref element="CONN1" pad="9"/>
-<contactref element="U$2" pad="3"/>
+<contactref element="JP23" pad="3"/>
 <wire x1="28.302540625" y1="3.750059375" x2="28.302540625" y2="3.75005" width="0.1524" layer="1"/>
 <wire x1="28.302540625" y1="3.75005" x2="26.789440625" y2="3.75005" width="0.1524" layer="1"/>
 <wire x1="26.789440625" y1="3.75005" x2="24.984" y2="1.944609375" width="0.1524" layer="1"/>
@@ -689,7 +689,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="SDI2" class="1">
 <contactref element="CONN1" pad="11"/>
-<contactref element="U$2" pad="2"/>
+<contactref element="JP23" pad="2"/>
 <wire x1="26.274009375" y1="2.23461875" x2="25.984" y2="1.944609375" width="0.1524" layer="1"/>
 <wire x1="24.828609375" y1="9.4" x2="24.828609375" y2="7.83223125" width="0.1524" layer="16"/>
 <wire x1="24.828609375" y1="7.83223125" x2="23.853309375" y2="6.85693125" width="0.1524" layer="16"/>
@@ -906,7 +906,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="SCK2" class="1">
 <contactref element="CONN1" pad="19"/>
-<contactref element="U$2" pad="1"/>
+<contactref element="JP23" pad="1"/>
 <wire x1="23.8" y1="8.4" x2="22.771390625" y2="8.4" width="0.1524" layer="16"/>
 <wire x1="30.78663125" y1="0.99925" x2="30.01325" y2="0.99925" width="0.1524" layer="1"/>
 <wire x1="30.01325" y1="0.99925" x2="29.984" y2="1.0285" width="0.1524" layer="1"/>
@@ -922,7 +922,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWM2H" class="1">
 <contactref element="CONN1" pad="17"/>
-<contactref element="U$2" pad="4"/>
+<contactref element="JP23" pad="4"/>
 <wire x1="28.13865" y1="10.12808125" x2="28.13865" y2="9.48035" width="0.1524" layer="1"/>
 <wire x1="28.13865" y1="9.48035" x2="30.62978125" y2="6.98921875" width="0.1524" layer="1"/>
 <wire x1="30.62978125" y1="6.98921875" x2="30.62978125" y2="3.749440625" width="0.1524" layer="1"/>
